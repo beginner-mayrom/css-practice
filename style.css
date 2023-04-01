@@ -105,6 +105,7 @@ main section .img-product{
 .img-product .width-img:hover{
     transform: translateY(-10px);
     cursor: pointer;
+    filter: grayscale(100%);
 }
 
 .width-img img{
