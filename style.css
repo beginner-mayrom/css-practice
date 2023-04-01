@@ -61,6 +61,7 @@ nav li a{
     color: #e1e1e1;
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 main aside{
@@ -87,7 +88,7 @@ main section .img-product{
     gap: 40px;
 }
 
-.img-product .width-img{
+.img-product .width-img a{
     width: 500px;
     display: flex;
     flex-direction: column;
