@@ -92,7 +92,7 @@ main section .img-product{
     gap: 40px;
 }
 
-.img-product .width-img {
+.img-product .width-img{
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -127,4 +127,12 @@ main section .img-product{
 
 .img-product a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+    main section .img-product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
